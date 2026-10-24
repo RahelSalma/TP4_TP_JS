@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "name": "Amina Ait Ali Ounacer",
+    "city": "Marrakech",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Salwa Chakir",
+    "city": "Marrakech",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Nadia Rahmani",
+    "city": "Casablanca",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Youssef Amrani",
+    "city": "Rabat",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Imane Alaoui",
+    "city": "Fes",
+    "active": true
+  },
+  {
+    "id": 6,
+    "name": "Omar Bennani",
+    "city": "Agadir",
+    "active": true
+  },
+  {
+    "id": 7,
+    "name": "Hamza Tazi",
+    "city": "Tangier",
+    "active": false
+  },
+  {
+    "id": 8,
+    "name": "Sara El Mansouri",
+    "city": "Meknes",
+    "active": true
+  },
+  {
+    "id": 9,
+    "name": "Mehdi Berrada",
+    "city": "Oujda",
+    "active": false
+  },
+  {
+    "id": 10,
+    "name": "Aya Chraibi",
+    "city": "Kenitra",
+    "active": true
+  }
+]

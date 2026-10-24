@@ -1,0 +1,48 @@
+
+/* Style général */
+body {
+    background-color: #f5f7fb;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+/* Titre principal */
+header h1 {
+    font-weight: 700;
+}
+
+/* Cartes des indicateurs */
+#indicators .card {
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s;
+}
+
+#indicators .card:hover {
+    transform: translateY(-3px);
+}
+
+/* Tableau */
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* Boutons */
+button {
+    white-space: nowrap;
+}
+
+/* Détail d'une commande */
+#order-detail .card {
+    border-radius: 12px;
+}
+
+/* Adaptation aux petits écrans */
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.7rem;
+    }
+}
