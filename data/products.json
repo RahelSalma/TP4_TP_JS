@@ -1,59 +1,65 @@
-
 [
   {
     "id": 10,
-    "name": "Laptop",
-    "category": "Informatique",
-    "price": 8500,
+    "name": "Sac à main Prestige",
+    "category": "Accessoires",
+    "price": 1290,
     "stock": 8
   },
   {
     "id": 11,
-    "name": "Souris",
+    "name": "Montre dorée Élégance",
     "category": "Accessoires",
-    "price": 180,
-    "stock": 25
-  },
-  {
-    "id": 12,
-    "name": "Clavier",
-    "category": "Accessoires",
-    "price": 350,
-    "stock": 15
-  },
-  {
-    "id": 13,
-    "name": "Ecran",
-    "category": "Informatique",
-    "price": 2200,
-    "stock": 6
-  },
-  {
-    "id": 14,
-    "name": "Casque",
-    "category": "Audio",
-    "price": 450,
+    "price": 890,
     "stock": 12
   },
   {
+    "id": 12,
+    "name": "Bracelet Gold Chic",
+    "category": "Accessoires",
+    "price": 350,
+    "stock": 20
+  },
+  {
+    "id": 13,
+    "name": "Parfum Rose Royale",
+    "category": "Parfums",
+    "price": 750,
+    "stock": 10
+  },
+  {
+    "id": 14,
+    "name": "Parfum Oud Élixir",
+    "category": "Parfums",
+    "price": 1100,
+    "stock": 6
+  },
+  {
     "id": 15,
-    "name": "Webcam",
-    "category": "Informatique",
-    "price": 600,
+    "name": "Eau de Parfum Velvet",
+    "category": "Parfums",
+    "price": 620,
     "stock": 9
   },
   {
     "id": 16,
-    "name": "Microphone",
-    "category": "Audio",
-    "price": 750,
-    "stock": 5
+    "name": "Lunettes Noir Prestige",
+    "category": "Lunettes",
+    "price": 680,
+    "stock": 7
   },
   {
     "id": 17,
-    "name": "Tapis de souris",
-    "category": "Accessoires",
-    "price": 80,
-    "stock": 30
+    "name": "Lunettes Gold Frame",
+    "category": "Lunettes",
+    "price": 820,
+    "stock": 5
+  },
+  {
+    "id": 18,
+    "name": "Lunettes Écaille Luxe",
+    "category": "Lunettes",
+    "price": 590,
+    "stock": 11
   }
 ]

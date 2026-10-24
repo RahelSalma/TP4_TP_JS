@@ -1,48 +1,167 @@
 
-/* Style général */
+/* ===== STYLE GENERAL ===== */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #f5f7fb;
-    color: #212529;
+    background-color: #f8f5ef;
+    color: #24211d;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-/* Titre principal */
+/* ===== HEADER ===== */
+
+header {
+    background-color: #171613;
+    color: #d4b16a;
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 3px solid #b99a55;
+}
+
 header h1 {
-    font-weight: 700;
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
-/* Cartes des indicateurs */
+header p {
+    color: #e8dfce !important;
+    letter-spacing: 1px;
+}
+
+/* ===== MAIN CONTAINER ===== */
+
+.container {
+    max-width: 1200px;
+}
+
+/* ===== INDICATORS ===== */
+
 #indicators .card {
     height: 100%;
-    border: none;
+    background-color: #ffffff;
+    border: 1px solid #e5d7b5;
     border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-    transition: transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
 }
 
 #indicators .card:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
 }
 
-/* Tableau */
+#indicators .card-title {
+    color: #94732f;
+    font-weight: bold;
+}
+
+/* ===== FILTERS ===== */
+
+.form-control,
+.form-select {
+    border: 1px solid #d8c9a7;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #b99a55;
+    box-shadow: 0 0 0 0.2rem rgba(185, 154, 85, 0.18);
+}
+
+/* ===== TABLE ===== */
+
+.table {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #24211d;
+    color: #e4c783;
+    border-color: #3b352a;
+    white-space: nowrap;
+}
+
 .table th,
 .table td {
     vertical-align: middle;
+    padding: 13px;
 }
 
-/* Boutons */
+.table tbody tr:hover {
+    background-color: #faf5e9;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn-primary {
+    background-color: #a88743;
+    border-color: #a88743;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #82652d;
+    border-color: #82652d;
+}
+
+.btn-outline-secondary {
+    border-color: #a88743;
+    color: #82652d;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #a88743;
+    color: white;
+}
+
 button {
     white-space: nowrap;
 }
 
-/* Détail d'une commande */
+/* ===== ORDER DETAILS ===== */
+
 #order-detail .card {
+    background-color: #ffffff;
+    border: 1px solid #e5d7b5;
     border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
 
-/* Adaptation aux petits écrans */
+#order-detail h4,
+#order-detail h5 {
+    color: #94732f;
+}
+
+/* ===== ERROR MESSAGE ===== */
+
+#error-message {
+    border-radius: 8px;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
 @media (max-width: 576px) {
     header h1 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    .table {
+        font-size: 0.85rem;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
     }
 }
